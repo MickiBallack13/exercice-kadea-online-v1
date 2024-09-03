@@ -123,49 +123,29 @@
                     </h3>
                 </article>
             </div>
-            <a href="#">Voir plus de cours -></a>
+            <a href="#" class="learning__more">Voir plus de cours -></a>
         </section>
         <!--End apprentissage section -->
         <!--Start Écrivez-nous section -->
-        <section>
-            <div>
-                <h2>
+        <section class="contact">
+                <h2 class="contact__title">
                     Écrivez-nous !
                 </h2>
-            </div>
-            <div>
-                <form>
-                    <div>
-                        <div>
-                            <div>
-                                <label for="nom">Votre nom</label>
-                            </div>
-                            <div>
-                                <input type="text" name="nom" id="nom">
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <label for="email">Votre email</label>
-                            </div>
-                            <div>
-                                <input type="email" name="email" id="email">
-                            </div>
-                        </div>
+                <form class="contact__form">
+                    <div class="contact__form-group">
+                        <label class="contact__label" for="nom">Votre nom</label>
+                        <input class="contact__input" type="text" name="nom" id="nom">
                     </div>
-                    <div>
-                        <div>
-                            <label for="message">Votre message</label>
-                        </div>
-                        <div>
-                            <textarea name="message" id="message"></textarea>
-                        </div>
+                    <div class="contact__form-group">
+                        <label class="contact__label" class="contact__label" for="email">Votre email</label>
+                        <input class="contact__input" type="email" name="email" id="email">
                     </div>
-                    <div>
+                    <div class="contact__form-group">
+                        <label class="contact__label" for="message">Votre message</label>
+                        <textarea class="contact__textarea" name="message" id="message"></textarea>
+                    </div>
                         <button>Envoyez votre message</button>
-                    </div>
                 </form>
-            </div>
         </section>
         <!--End Écrivez-nous section -->
     </main>
