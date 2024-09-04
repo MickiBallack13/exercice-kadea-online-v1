@@ -1,3 +1,4 @@
+/*Global styles */
 @import url("fonts.css");
 
 * {
@@ -5,4 +6,137 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins";
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header__logo img {
+  max-width: 150px;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__menu {
+  list-style: none;
+  display: flex;
+}
+
+.header__menu-item {
+  margin-right: 20px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Hero section styles */
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.hero__content {
+  flex: 1;
+}
+
+.hero__title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hero__description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.hero__button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.hero__image img {
+  max-width: 100%;
+}
+
+/* Options section styles */
+.options {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+
+.options__item {
+  text-align: center;
+  max-width: 300px;
+}
+
+.options__title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Start Coding section styles */
+.coding {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.coding__imgage img {
+  max-width: 100%;
+}
+
+.coding__content {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.coding__title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.coding__button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Learning section styles */
+.learning {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.learning__title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.learning__courses {
+  display: flex;
+  justify-content: center;
+}
+
+.learning__course {
+  margin: 0 10px;
+}
+
+.learning__course-title {
+  font-size: 1.2rem;
 }
